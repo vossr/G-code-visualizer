@@ -1,0 +1,35 @@
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: inherit;
+  text-align: center;
+  color:white;
+  background-color: #505060;
+}
+
+#requestmotion {
+  padding: 1px;
+}
+
+.contain {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+.rendercanvas {
+	width: 2px;
+	height: 2px;
+}
